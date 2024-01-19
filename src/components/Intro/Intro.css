@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+:root {
+    --time : 3s;
+}
+
+h1 {
+    color: red;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.intro :nth-child(4) {
+	color: white;
+}
+.intro :nth-child(1) , .intro :nth-child(7) { 	
+    animation: wave var(--time) ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+.intro :nth-child(2) , .intro :nth-child(6) { 	
+	animation: wave var(--time) ease-in-out infinite;
+	animation-delay: 0.25s;
+}
+
+.intro :nth-child(3) , .intro :nth-child(5) { 	
+	animation: wave var(--time) ease-in-out infinite;
+	animation-delay: 0s;
+}
+
+@keyframes wave {
+    0% {
+	transform: scale(1)
+    }
+    50% {
+	transform: scale(0.9)
+    }
+    100% {
+	transform: scale(1)
+    }
+}
+
+@keyframes waveSync {
+    0% {
+	transform: scale(1)
+    }
+    50% {
+	transform: scale(0.8)
+    }
+    100% {
+	transform: scale(1)
+    }
+}
+
+@keyframes blob {
+    0% {
+	transform: scale(1)
+    }
+    20% {
+	transform: scale(1.1)
+    }
+    40% {
+	transform: scale(1)
+    }
+    100% {
+	transform: scale(1)
+    }
+}
+
+
+
+@media (max-width: 1500px) {
+	h1 {
+	}
+}

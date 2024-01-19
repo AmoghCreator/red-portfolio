@@ -1,0 +1,26 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navIcons {
+    height: 4rem;
+    transition: ease 0.5s;
+    padding : 0.8rem;
+}
+
+.navIcons:hover {
+    color:red;
+    transition: ease 0.5s;
+}
+
+@media (max-width: 1500px) {
+	.navWeb {
+	  flex-direction: row;
+	  justify-content: space-around;
+	}
+	.navIcons {
+	    height: 3rem;
+	}
+}

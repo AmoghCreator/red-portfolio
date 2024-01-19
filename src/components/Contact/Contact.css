@@ -1,0 +1,92 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap : 1rem;
+}
+
+.contact h1 {
+  font-size: 3em;
+}
+.contactWrapper {
+	display: flex;
+	flex-direction: column;
+}
+.contactCardInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactCard {
+  width: 40vw;
+}
+
+.contactCard input {
+  height : 10vh;
+  font-size: 2em;
+}
+
+.contactCard textarea{
+  height : 30vh;
+  font-size: 2.5em;
+}
+
+.contactCardSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-size: 3em;
+}
+
+.contactCard {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+
+
+input , textarea {
+	border: 0.2em solid red;
+	text-wrap: wrap;
+}
+
+@media (max-width : 1000px) {
+	.contact {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	}
+	.contact h1 {
+	  font-size: 1.8em;
+	}
+
+	.contactCard {
+		display: flex;
+		flex-direction: column;
+		width: 80vw;
+	}
+
+	.contactCard  input {
+	  height : 5vh;
+	}
+
+	.contactCard  textarea {
+	  height : 30vh;
+	}
+
+	input {
+	  border: 0.2em solid red;
+	  font-size: 1.2em;
+	  text-wrap: wrap;
+	}
+
+	textarea {
+	  border: 0.2em solid red;
+	  font-size: 1.6em;
+	  text-wrap: wrap;
+	}
+	.contactCardSubmit {
+	  font-size: 2em;
+	  padding : 0.3em;
+	}
+}

@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    gap : 2em;
+}
+
+.navIcons {
+    height: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1500px) {
+	.navSoc {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-around;
+	}
+	.navIcons {
+	    height: 3rem;
+	}
+}
