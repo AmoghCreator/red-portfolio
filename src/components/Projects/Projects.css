@@ -4,8 +4,8 @@
     --time : 3s;
 }
 
-h1 {
-    color: red;
+.projects h1 {
+    color: blue;
     font-family: 'Black Han Sans', sans-serif;
     font-size: 5rem;
     font-style: normal;
